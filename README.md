@@ -1,1 +1,1 @@
-# React + Vite Portfolio Webite WIP
+# React + Vite Portfolio Website WIP
