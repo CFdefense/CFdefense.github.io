@@ -15,11 +15,13 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/media/bgimage1.jpg'); /* Path to your background image */
+  background-image: var(--background-image); /* To be set by Background.jsx */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  z-index: 0; /* Ensure it is behind other content */
+  z-index: -1; /* Ensure it is behind other content */
+  filter: blur(5px);
+  filter:brightness(.40)
 }
 
 div {
