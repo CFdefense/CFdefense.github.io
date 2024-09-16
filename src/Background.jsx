@@ -35,7 +35,6 @@ const Background = () => {
             'media/range.png',
             'media/rocket.jpg',
             'media/rocket_launch.png',
-            'media/samurai_bebop.png',
             'media/sekiro.jpg',
             'media/shaded_landscape.jpg',
             'media/spring_bloom.jpg',
