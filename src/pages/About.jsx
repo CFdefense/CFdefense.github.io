@@ -1,9 +1,10 @@
 import React from "react";
 import Background from "../Background";
+
 function About() {
     return (
       <div>
-        <Background /> // maybe maybe not
+        <Background />
         About
       </div>
     )
