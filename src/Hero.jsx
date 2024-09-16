@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-
+import { Link } from "react-router-dom"
 /*
   Asset to Manipulate Hero Text
 */
@@ -49,10 +49,10 @@ const Hero = () => {
 
         {/* Quick Links */}
         <ul className="text-3xl flex justify-center items-center w-full h-24 max-w-[1240px] mx-auto p-5 space-x-5">
-          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">Projects</li>
-          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">Experiences</li>
-          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">Skills</li>
-          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">About</li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700"><Link to="/projects">Projects</Link></li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700"><Link to ="/experience">Experience</Link></li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700"><Link to="/contacts">Contacts</Link></li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700"><Link to="/about">About</Link></li>
         </ul>
       </div>
     </div>
