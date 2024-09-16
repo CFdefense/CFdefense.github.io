@@ -1,11 +1,12 @@
 Welcome to my soon to be portfolio website
 
+Included:
+    1. Landing Page - Background Switching - Opening Animations
+    2. Router
+    
 To Include:
-    1. Landing Page
-    2. Projects - Interactive Demos
-    3. Socials
-    4. About me
-    5. Experiences
-    6. Skills
-
-Test using some website check website
+    1. Landing Page Additions
+    2. Routered Pages Background Fix
+    3. Routered Pages NavBar
+    4. Routered Pages Info
+    5. Publish Gh-pages
