@@ -33,9 +33,8 @@ const Hero = () => {
     const listItems = document.querySelectorAll('.fade-in');
     listItems.forEach((item, index) => {
       setTimeout(() => {
-        item.classList.remove('opacity-0');
-        item.classList.add('opacity-100');
-        item.classList.add('translate-y-0');
+        item.classList.remove('opacity-0', 'translate-y-4');
+        item.classList.add('opacity-100','translate-y-0');
       }, 2000 + ((100 * (index + 1)))); // Stagger the animation
     });
   }, []);
@@ -50,14 +49,13 @@ const Hero = () => {
 
         {/* Quick Links */}
         <ul className="text-3xl flex justify-center items-center w-full h-24 max-w-[1240px] mx-auto p-5 space-x-5">
-          <li className="p-5 fade-in opacity-0 translate-y-4  transition-transform duration-700">Projects</li>
-          <li className="p-5 fade-in opacity-0 translate-y-4  transition-transform duration-700">Experiences</li>
-          <li className="p-5 fade-in opacity-0 translate-y-4  transition-transform duration-700">Skills</li>
-          <li className="p-5 fade-in opacity-0 translate-y-4  transition-transform duration-700">About</li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">Projects</li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">Experiences</li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">Skills</li>
+          <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700">About</li>
         </ul>
       </div>
     </div>
   );
 };
-
 export default Hero;
