@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { Link } from "react-router-dom"
+
 /*
-  Asset to Manipulate Hero Text
+  Asset to Manipulate Hero Text Box
 */
 const Hero = () => {
   const typedElement = useRef(null); // Typed element
@@ -47,7 +48,7 @@ const Hero = () => {
           <span ref={typedElement} /> 
         </h1>
 
-        {/* Quick Links */}
+        {/* Quick Links to use fadein animation defined above */}
         <ul className="text-3xl flex justify-center items-center w-full h-24 max-w-[1240px] mx-auto p-5 space-x-5">
           <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700"><Link to="/projects">Projects</Link></li>
           <li className="p-5 fade-in opacity-0 translate-y-4 transition-transform duration-700"><Link to ="/experience">Experience</Link></li>

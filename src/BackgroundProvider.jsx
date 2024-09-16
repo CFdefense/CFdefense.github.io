@@ -1,7 +1,9 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 
+// Context Object to Share Background Image State
 const BackgroundContext = createContext();
 
+// Export Background Image to Child Components
 export const BackgroundProvider = ({ children }) => {
   const [backgroundImage, setBackgroundImage] = useState('');
 
@@ -53,6 +55,7 @@ export const BackgroundProvider = ({ children }) => {
   }, []); // Empty dependency array ensures this runs once when component mounts
 
   return (
+    //Provide Background Image value to all wrapped children
     <BackgroundContext.Provider value={backgroundImage}>
       {children}
     </BackgroundContext.Provider>
