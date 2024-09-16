@@ -3,10 +3,11 @@ Welcome to my soon to be portfolio website
 Included:
     1. Landing Page - Background Switching - Opening Animations
     2. Router
+    3. Routered Pages Navbar
+    4. Routered Pages Background Fix
     
 To Include:
     1. Landing Page Additions
-    2. Routered Pages Background Fix
-    3. Routered Pages NavBar
-    4. Routered Pages Info
-    5. Publish Gh-pages
+    2. Routered Pages Info
+    3. Publish Gh-pages
+    4. NavBar additions to hide/show using react icons
