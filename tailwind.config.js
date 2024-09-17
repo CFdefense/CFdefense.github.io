@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        myFont: ['MyFont', 'sans-serif'],
+      },
+      fontSize: {
+        '9xl': '8rem',
+      }
+    },
   },
   plugins: [],
 }
-

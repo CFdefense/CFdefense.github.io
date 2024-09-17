@@ -5,9 +5,14 @@ Included:
     2. Router
     3. Routered Pages Navbar
     4. Routered Pages Background Fix
+    5. NavBar additions to hide/show using react icons
     
 To Include:
     1. Landing Page Additions
     2. Routered Pages Info
+        -About Page
+        -Contacts Page
+        -Experience Page
+        -Projects Page
     3. Publish Gh-pages
-    4. NavBar additions to hide/show using react icons
+    

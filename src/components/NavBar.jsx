@@ -14,7 +14,7 @@ const NavBar = ({ currentPage }) => {
   }
   
   return (
-    <div className='relative h-24 w-full overflow-hidden'>
+    <div className='relative h-24 w-full overflow-hidden z-50'>
       <div className='absolute top-0 right-5 flex items-center text-white'>
       <ul className={`flex text-2xl mr-5 transition-all duration-500 ease-in-out transform ${
               nav ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'
