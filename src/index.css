@@ -29,9 +29,7 @@ body::before {
   background-position: center;
   background-attachment: fixed;
   z-index: -1; /* Ensure it is behind other content */
-  filter: blur(5px);
-  filter: brightness(.40);
-  transition: background-image 0.5s ease-in-out; /* Smooth transition for background image */
+  filter: brightness(.5);
 }
 
 div {
