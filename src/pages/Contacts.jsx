@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import Background from "../Background";
-import NavBar from "../NavBar";
+import Background from "../components/Background";
+import NavBar from "../components/NavBar";
 
 function Contacts() {
   const location = useLocation();

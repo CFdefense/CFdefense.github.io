@@ -7,7 +7,7 @@ import Contacts from './pages/Contacts.jsx';
 import About from './pages/About.jsx';
 import App from './App.jsx'
 import './index.css'
-import { BackgroundProvider } from './BackgroundProvider.jsx';
+import { BackgroundProvider } from './components/BackgroundProvider.jsx';
 
 /*
   Routing of Website Links to Respective Componenets

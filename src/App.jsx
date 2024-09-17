@@ -1,6 +1,6 @@
 import React from "react"
-import Background from "./Background"
-import Hero from "./Hero"
+import Background from "./components/Background"
+import Hero from "./components/Hero"
 
 function App() {
   return (
