@@ -1,5 +1,5 @@
 // animations/fadeIn.js
-s
+
 /**
  * Apply fade-in animation to elements with a specific delay and stagger effect.
  * @param {NodeListOf<Element>} elements - The elements to apply the animation to.
