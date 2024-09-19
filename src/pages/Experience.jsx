@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import Background from "../components/Background";
 import NavBar from "../components/NavBar";
+import Header from "../components/Header";
 
 function Experience() {
   const location = useLocation();
@@ -11,9 +12,7 @@ function Experience() {
     <div className="overflow-x-hidden h-screen">
       <Background />
       <NavBar currentPage={currentPage} />
-      <div className="-mt-12 mx-auto text-center text-white font-myFont" style={{ fontSize: '12rem', transform: 'scaleX(2.0) scaleY(2.0)', paddingTop: "20px"}}>
-        Experience
-      </div>
+      <Header title="Experience" />
     </div>
   );
 }
