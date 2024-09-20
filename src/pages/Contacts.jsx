@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Background from "../components/Background";
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
+import { FadeIn } from "../animations/fadeIn";
 
 function Contacts() {
   const location = useLocation();
@@ -12,7 +13,9 @@ function Contacts() {
     <div className="overflow-x-hidden h-screen">
       <Background />
       <NavBar currentPage={currentPage} />
-      <Header title="Lets Connect" />
+      <FadeIn>
+        <Header title="Lets Connect" />
+      </FadeIn>
       <div className="text-white text-center">
         Some text talking about how I am open to opportunties ect
       </div>

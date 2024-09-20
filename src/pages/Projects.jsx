@@ -7,7 +7,7 @@ import Header from "../components/Header"; // Import the Header component
 import { Reveal } from "../animations/reveal";
 import { FadeIn } from "../animations/fadeIn";
 
-// Sample project data
+// project data
 const projectData = [
   {
     title: "6502 Microprocessor Compiler",

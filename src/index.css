@@ -40,3 +40,7 @@ div {
 :root {
   --brand: #ADD8E6; /* Light blue color */
 }
+
+.pointer-events-none {
+  pointer-events: none;
+}

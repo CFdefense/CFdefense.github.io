@@ -17,7 +17,7 @@ const NavBar = ({ currentPage }) => {
     <div className='relative h-24 w-full overflow-hidden z-50'>
       <div className='absolute top-0 right-5 flex items-center text-white'>
       <ul className={`flex text-2xl mr-5 transition-all duration-500 ease-in-out transform ${
-              nav ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'
+              nav ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full pointer-events-none'
             }`}> {/* Animation for Opening and Closing Nav Icon*/}
           {currentPage !== 'projects' && <li className="p-5"><Link to="/projects">Projects</Link></li>}
           {currentPage !== 'experience' && <li className="p-5"><Link to="/experience">Experience</Link></li>}
