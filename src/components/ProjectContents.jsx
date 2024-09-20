@@ -12,7 +12,7 @@ const ProjectContents = ({ title, description, imageUrl }) => {
           {title && (
             <div className="text-center mb-4">
               <Reveal>
-                <h2 className="text-4xl font-bold">{title}</h2>
+                <h2 className="text-7xl font-bold">{title}</h2>
               </Reveal>
             </div>
           )}
@@ -20,7 +20,7 @@ const ProjectContents = ({ title, description, imageUrl }) => {
           {/* Project Description */}
           {description && (
             <Reveal>
-              <p className="text-lg">{description}</p>
+              <p className="text-2xl">{description}</p>
             </Reveal>
           )}
         </div>
@@ -32,7 +32,7 @@ const ProjectContents = ({ title, description, imageUrl }) => {
               <img
                 src={imageUrl}
                 alt="Project"
-                className="w-full h-auto object-cover rounded w-[500px] h-[500px]"
+                className="object-cover object-scale-down rounded w-[500px] h-[500px]"
               />
             </Reveal>
           </div>

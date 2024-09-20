@@ -12,7 +12,7 @@ const ExperienceContent = ({ company, title, description, imageUrl }) => {
           {company && (
             <div className="text-center mb-4">
               <Reveal>
-                <h2 className="text-4xl font-bold">{company}</h2>
+                <h2 className="text-6xl font-bold">{company}</h2>
               </Reveal>
             </div>
           )}
@@ -20,7 +20,7 @@ const ExperienceContent = ({ company, title, description, imageUrl }) => {
           {title && (
             <div className="text-center mb-4">
               <Reveal>
-                <h3 className="text-1xl italic font-bold">{title}</h3>
+                <h3 className="text-4xl italic">{title}</h3>
               </Reveal>
               </div>
           )}
@@ -28,7 +28,7 @@ const ExperienceContent = ({ company, title, description, imageUrl }) => {
           {/* Experience Description */}
           {description && (
             <Reveal>
-              <p className="text-lg">{description}</p>
+              <p className="text-2xl">{description}</p>
             </Reveal>
           )}
         </div>
@@ -40,7 +40,7 @@ const ExperienceContent = ({ company, title, description, imageUrl }) => {
               <img
                 src={imageUrl}
                 alt="Experience"
-                className="w-full h-auto object-cover rounded"
+                className="object-cover object-scale-down rounded w-[500px] h-[500px]"
               />
             </Reveal>
           </div>

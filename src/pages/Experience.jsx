@@ -13,19 +13,19 @@ const experienceData = [
     company: "Avangrid Networks",
     title: "Mobile Application Management and Virtual Desktop Infrastructure Intern",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula, dui at iaculis cursus, eros purus ultricies odio.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "../../media/experience/Avangrid.png"
   },
   {
     company: "Marist College Information Technology",
     title: "Lead Telecommunications Technician",
     description: "Sed euismod orci a lectus hendrerit, ac condimentum urna aliquet. Integer aliquam magna ut vehicula lacinia.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "../../media/experience/marist.png"
   },
   {
     company: "Marist College School of Computer Science and Mathematics",
     title: "Programming Lab Tutor",
     description: "Sed euismod orci a lectus hendrerit, ac condimentum urna aliquet. Integer aliquam magna ut vehicula lacinia.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "../../media/experience/marist.png"
   },
 ];
 
