@@ -1,15 +1,16 @@
 // animations/floatUp.js
 
 /**
- * Float up animation for elements.
- * @param {Element} element - The element to apply the animation to.
- * @param {number} height - The amount of translation on the y-axis.
- * @param {number} delay - The delay before starting the animation.
- * @param {boolean} isHome - Whether or not the animation is for the home page.
+ * Apply fade-in animation to elements with a specific delay and stagger effect.
+ * @param {NodeListOf<Element>} elements - The elements to apply the animation to.
+ * @param {number} delay - The initial delay before starting the animation (in ms).
+ * @param {number} stagger - The stagger delay between each element's animation (in ms).
  */
-export function floatUp(element, height = 8, delay = 200, isHome = false) {
+export function floatUp(elements, delay = 2000, stagger = 100) {
+  elements.forEach((item, index) => {
     setTimeout(() => {
-      element.classList.remove('opacity-0', `translate-y-${height}`);
-      element.classList.add('opacity-100', 'translate-y-0');
-    }, delay);
-  }
+      item.classList.remove('opacity-0', 'translate-y-4');
+      item.classList.add('opacity-100', 'translate-y-0');
+    }, delay + (stagger * index));
+  });
+}

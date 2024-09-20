@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { Link } from "react-router-dom";
-import { fadeIn } from "../animations/fadeIn"; // Import fadeIn animation
+import { floatUp } from "../animations/floatUp"; // Import fadeIn animation
 
 const Hero = () => {
   const typedElement = useRef(null); // Typed element
@@ -29,7 +29,7 @@ const Hero = () => {
   // Apply fade-in effect
   useEffect(() => {
     const listItems = document.querySelectorAll('.fade-in');
-    fadeIn(listItems); // Use fadeIn function from animations folder
+    floatUp(listItems); // Use floatUp function from animations folder
   }, []);
 
   return (

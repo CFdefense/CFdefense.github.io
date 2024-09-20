@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Background from "../components/Background";
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
+import { Reveal } from "../animations/reveal";
 
 function Experience() {
   const location = useLocation();
@@ -12,7 +13,9 @@ function Experience() {
     <div className="overflow-x-hidden h-screen">
       <Background />
       <NavBar currentPage={currentPage} />
-      <Header title="Experience" />
+      <Reveal>
+        <Header title="Experience" />
+      </Reveal>
     </div>
   );
 }
