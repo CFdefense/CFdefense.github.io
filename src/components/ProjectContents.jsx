@@ -32,7 +32,7 @@ const ProjectContents = ({ title, description, imageUrl }) => {
               <img
                 src={imageUrl}
                 alt="Project"
-                className="w-full h-auto object-cover rounded"
+                className="w-full h-auto object-cover rounded w-[500px] h-[500px]"
               />
             </Reveal>
           </div>

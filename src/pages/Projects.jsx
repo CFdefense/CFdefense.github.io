@@ -12,12 +12,12 @@ const projectData = [
   {
     title: "6502 Microprocessor Compiler",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula, dui at iaculis cursus, eros purus ultricies odio.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "../../media/Projects/6502.png"
   },
   {
     title: "Chip-8 Interpretter",
     description: "Sed euismod orci a lectus hendrerit, ac condimentum urna aliquet. Integer aliquam magna ut vehicula lacinia.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "../../media/Projects/3lRyHa.png"
   },
   {
     title: "Algorithm and Datastructures",
