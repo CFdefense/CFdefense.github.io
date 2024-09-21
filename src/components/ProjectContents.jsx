@@ -20,7 +20,7 @@ const ProjectContents = ({ title, description, imageUrl }) => {
           {/* Project Description */}
           {description && (
             <Reveal>
-              <p className="text-2xl">{description}</p>
+              <p className="text-3xl">{description}</p>
             </Reveal>
           )}
         </div>

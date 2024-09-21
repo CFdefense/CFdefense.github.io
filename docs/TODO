@@ -6,14 +6,12 @@ Included:
     3. Routered Pages Navbar
     4. Routered Pages Background Fix
     5. NavBar additions to hide/show using react icons
+    6. Animations for scrolling 
     
 To Include:
     1. Landing Page Additions
     2. Routered Pages Info
-        -About Page
-        -Contacts Page
-        -Experience Page
-        -Projects Page -> begun work
-    3. Animations for page transitions, scrolling and anything else I can think of
-    4. Publish Gh-pages
-    
+    3. About Page -> needs picture, description and skills -> Resume + option to download it
+    4. Contacts Page -> contact forum to send me emails
+    5. Experience Page -> structured -> needs content -> maybe shorten content and make seperate page for each
+    6. Projects Page -> structured -> needs content -> learn more / github page buttons
