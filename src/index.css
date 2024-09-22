@@ -13,8 +13,7 @@ body {
   position: relative;
   margin: 0;
   min-height: 100vh; /* Ensure the body covers the viewport height */
-  background-color: #0000; /* Default background color to avoid flash of white */
-  transition: background-color 0.5s ease-in-out; /* Smooth transition for background color */
+  background-color: #000; /* Solid background to avoid flash of white */
   overflow-y: scroll;
 }
 
@@ -37,6 +36,7 @@ div {
   position: relative; /* Ensure that the content has a positioning context */
   z-index: 1; /* Ensure content is above the background */
 }
+
 :root {
   --brand: #ADD8E6; /* Light blue color */
 }

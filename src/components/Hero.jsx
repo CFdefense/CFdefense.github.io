@@ -2,8 +2,10 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { Link } from "react-router-dom";
 import { floatUp } from "../animations/floatUp"; // Import fadeIn animation
+import { useBackground } from "./BackgroundProvider";
 
 const Hero = () => {
+  const { changeBackground } = useBackground(); // Get the background changer
   const typedElement = useRef(null); // Typed element
 
   useEffect(() => {
@@ -16,7 +18,8 @@ const Hero = () => {
       startDelay: 500,
       loop: false,
       showCursor: false,
-    };
+    };Christian Farrell
+
 
     const typed = new Typed(typedElement.current, options);
 
@@ -35,7 +38,7 @@ const Hero = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center px-4">
-        <h1 className="text-8xl whitespace-nowrap font-medium">
+        <h1 className="text-8xl whitespace-nowrap font-medium cursor-pointer" onClick={changeBackground}>
           <span ref={typedElement} />
         </h1>
         <ul className="text-3xl flex justify-center items-center w-full h-24 max-w-[1240px] mx-auto p-5 space-x-5">

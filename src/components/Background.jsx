@@ -7,6 +7,7 @@ const Background = () => {
   const [fade, setFade] = useState(false);
 
   useEffect(() => {
+    // Start fade-in/out effect when backgroundImage changes
     setFade(true);
 
     const timeout = setTimeout(() => {

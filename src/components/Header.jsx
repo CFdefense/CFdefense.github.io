@@ -1,15 +1,28 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
 import { useBackground } from "./BackgroundProvider";
 
 const Header = ({ title }) => {
-  const { changeBackground } = useBackground(); // get our background changer
+  const { changeBackground } = useBackground();
+  const [isDebouncing, setIsDebouncing] = useState(false);
+
+  const handleChangeBackground = useCallback(() => {
+    if (isDebouncing) return; // Prevent further clicks while debouncing
+    setIsDebouncing(true);
+    changeBackground();
+
+    // Reset debounce after a short delay (e.g., 1 second)
+    setTimeout(() => {
+      setIsDebouncing(false);
+    }, 1000); // Adjust the timeout as necessary
+  }, [changeBackground, isDebouncing]);
+
   return (
-    <div className="p-5 flex justify-center mb-12 ">
+    <div className="p-5 flex justify-center mb-12">
       <div
-        className="text-white text-center font-myFont" 
+        className="text-white text-center font-myFont"
         style={{ fontSize: '12rem', transform: 'scaleX(2.0) scaleY(2.0)', paddingTop: "20px" }}
-        onClick={changeBackground} // on click we will change the background
-     >
+        onClick={handleChangeBackground} // Debounced click to change the background
+      >
         {title}
       </div>
     </div>
