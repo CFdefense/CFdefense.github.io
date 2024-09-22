@@ -18,7 +18,7 @@ const Hero = () => {
       startDelay: 500,
       loop: false,
       showCursor: false,
-    };Christian Farrell
+    };
 
 
     const typed = new Typed(typedElement.current, options);
