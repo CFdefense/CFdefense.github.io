@@ -27,3 +27,8 @@ function Contacts() {
 }
   
   export default Contacts
+
+/*
+  1. Linkedin, Github
+  2. Contact me form through formspree
+*/
