@@ -8,11 +8,17 @@ Included:
     5. NavBar additions to hide/show using react icons
     6. Animations for scrolling 
     7. Experience Page done
-        -> maybe seperate pages for each in future + HOVER ANIMATIONS
-    8. Did Landing Page Additions 
+        -> maybe seperate pages for each in future
+    8. Completed Landing Page Additions 
         -> maybe add 'try me' in future w animation
+    9. Completed About me Page
+        -> maybe fix transitions for forcescroll
     
 To Include:
-    1. About Page -> Description + Resume + option to download it
-    2. Contacts Page -> contact forum to send me emails
-    3. Projects Page -> structured -> needs content -> learn more / github page butto
+    1. Contacts Page -> contact forum to send me emails
+    2. Projects Page -> structured -> needs content -> learn more / github page button
+
+
+Future Additions:
+    1. Hover Animations
+    2. Fun Animations

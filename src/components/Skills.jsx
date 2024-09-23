@@ -39,7 +39,7 @@ const SkillsSection = () => {
     {skillRows.map((row, rowIndex) => (
         <div className="flex justify-center" key={rowIndex}>
             {row.map((skill, index) => (
-                <ScatterAppear key={index} delay={1 + index * 0.35}> {/* 1-second initial delay, then staggered by 0.25 seconds */}
+                <ScatterAppear key={index} delay={1.35 + index * 0.35}> {/* 1-second initial delay, then staggered by 0.25 seconds */}
                     <div
                         className="flex flex-col items-center"
                         style={{ width: "120px", height: "120px" }}
