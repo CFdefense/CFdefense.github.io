@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://CFdefense.github.io/React-Portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=./",
+    "build": "vite build --base=/React-Portfolio/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
