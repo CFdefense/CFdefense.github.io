@@ -12,47 +12,83 @@ const projectData = [
   {
     title: "6502 Microprocessor Compiler",
     description: "Developed a Java-based compiler that translates high-level code into executable 6502 assembly language.",
-    imageUrl: "../../media/projects/6502.png"
+    imageUrl: "../../media/projects/6502.png",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "Chip-8 Interpreter",
     description: "Created a Python interpreter to execute Chip-8 machine code allowing for play of retro games.",
-    imageUrl: "../../media/projects/3lRyHa.png"
+    imageUrl: "../../media/projects/3lRyHa.png",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "Algorithm and Data Structures",
     description: "Key algorithm and data structure concepts such as graph traversal, dynamic programming, hashing, searching, etc",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "https://via.placeholder.com/500",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "AI Menu Alerts",
     description: "An AI-powered dining platform that sends personalized meal alerts using user feedback.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "https://via.placeholder.com/500",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "DOOM Inspired CLI Game",
     description: "A command line game which utilizes ray-tracing and collision detection to deliver DOOM-like experience.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "https://via.placeholder.com/500",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "CRUD RESTful API",
     description: "Simple backend Node.js RESTful API to perform CRUD operations with a MongoDB database.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "https://via.placeholder.com/500",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "Arch Linux Hyprland Environment",
     description: "My custom Hyprland dotfiles allowing for a 100% customizable Arch Linux desktop environment.",
     imageUrl: "https://via.placeholder.com/500"
+    ,externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "Windows 2019 Domain Controller",
     description: "A Virtualized Windows Server 2019 Domain Controller with network services mimicing an enterprise environment.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "https://via.placeholder.com/500",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   },
   {
     title: "MQ Ticket Purchasing Lab",
     description: "IBM Lab Completed using Podman and IBM MQ to handle ticket purchase requests on WSL Ubuntu.",
-    imageUrl: "https://via.placeholder.com/500"
+    imageUrl: "https://via.placeholder.com/500",
+    externalLinks: [
+      { url: "https://example.com/link1", imgUrl: "https://via.placeholder.com/150" },
+      { url: "https://example.com/link2", imgUrl: "https://via.placeholder.com/150" }
+    ]
   }
 ];
 
@@ -77,6 +113,7 @@ function Projects() {
             title={project.title}
             description={project.description}
             imageUrl={project.imageUrl}
+            externalLinks={project.externalLinks}
           />
         ))}
       </div>
