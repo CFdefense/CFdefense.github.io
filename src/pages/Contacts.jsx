@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Background from "../components/Background";
 import NavBar from "../components/NavBar";
 import Header from "../components/Header";
+import ContactsContent from "../components/ContactsContent";
 import { FadeIn } from "../animations/fadeIn";
 
 function Contacts() {
@@ -14,14 +15,9 @@ function Contacts() {
       <Background />
       <NavBar currentPage={currentPage} />
       <FadeIn>
-        <Header title="Lets Connect" />
+        <Header title="Contact Me" />
       </FadeIn>
-      <div className="text-white text-center">
-        Some text talking about how I am open to opportunties ect
-      </div>
-      <div className="text-white">
-        Socials Here
-      </div>
+      <ContactsContent />
     </div>
   );
 }

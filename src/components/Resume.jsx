@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FadeIn } from "../animations/fadeIn";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   const [showResume, setShowResume] = useState(false);
@@ -9,16 +10,21 @@ const Resume = () => {
     if (showResume) {
       // Scroll to the top when hiding the resume
       window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      // Set a timeout before toggling and scrolling down
+      setTimeout(() => {
+        setShowResume(true);
+        resumeRef.current.scrollIntoView({ behavior: "smooth" });
+      }, 300); // Delay of 300 ms
     }
-    setShowResume((prev) => !prev); // Toggle the visibility
+    
+    // If already showing, just toggle the visibility
+    if (showResume) {
+      setShowResume(false); // Hide the resume
+    } else {
+      setShowResume((prev) => !prev); // Toggle the visibility
+    }
   };
-
-  // Effect to scroll into view when the resume is shown
-  useEffect(() => {
-    if (showResume && resumeRef.current) {
-      resumeRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [showResume]); // Only run when showResume changes
 
   return (
     <div className="relative w-full">
@@ -34,28 +40,28 @@ const Resume = () => {
 
       {showResume && (
         <div ref={resumeRef} className="mt-16 px-4">
-            <FadeIn delay={0.25}>
-                <h2 className="text-4xl font-bold text-center text-white mb-4">My Resume</h2>
-            </FadeIn>
+          <FadeIn delay={0.25}>
+            <h2 className="text-4xl font-bold text-center text-white mb-4">My Resume</h2>
+          </FadeIn>
           {/* Download button */}
-          <FadeIn delay={0.50}>
-          <div className="text-center mb-4">
+          <FadeIn delay={0.375}>
+            <div className="text-center mb-4">
             <a
-              href="../../media/about/resume.jpg"
-              download="My_Resume.jpg" // This will be the name of the downloaded file
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-            >
-              Download Resume
-            </a>
-          </div>
+                href="/media/about/resume.jpg"
+                download="Christian_Farrell_Resume.jpg"
+                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Download JPG
+              </a>
+            </div>
           </FadeIn>
           {/* Display the JPEG image of the resume */}
-          <FadeIn delay={0.75}>
-          <img
-            src="../../media/about/resume.jpg"
-            alt="My Resume"
-            className="mx-auto w-full max-w-[800px] rounded mb-4" // Add margin below the image
-          />
+          <FadeIn delay={0.50}>
+            <img
+              src="../../media/about/resume.jpg"
+              alt="My Resume"
+              className="mx-auto w-full max-w-[800px] rounded mb-4"
+            />
           </FadeIn>
         </div>
       )}
