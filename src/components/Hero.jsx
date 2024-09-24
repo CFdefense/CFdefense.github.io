@@ -38,7 +38,7 @@ const Hero = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center px-4">
-        <h1 className="text-8xl whitespace-nowrap font-medium cursor-pointer" onClick={changeBackground}>
+        <h1 title="Click Me" className="text-8xl whitespace-nowrap font-medium cursor-pointer" onClick={changeBackground}>
           <span ref={typedElement} />
         </h1>
         <ul className="text-3xl flex justify-center items-center w-full h-24 max-w-[1240px] mx-auto p-5 space-x-5">
