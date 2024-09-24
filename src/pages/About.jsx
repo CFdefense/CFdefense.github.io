@@ -11,7 +11,7 @@ function About() {
   const currentPage = location.pathname.replace('/', '') || 'home'; // Determine the current page
 
   return (
-    <div className="overflow-x-hidden h-screen">
+    <div className="overflow-x-hidden items-center justify-center p-4 md:p-8 lg:p-12">
       <Background />
       <NavBar currentPage={currentPage} />
       <FadeIn>

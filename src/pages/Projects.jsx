@@ -48,7 +48,7 @@ const projectData = [
   {
     title: "DOOM Inspired CLI Game",
     description: "A command line game which utilizes ray-tracing and collision detection to deliver DOOM-like experience.",
-    imageUrl: "../../media/projects/wip.png",
+    imageUrl: "../../media/projects/doom.gif",
     externalLinks: [
       { url: "https://github.com/CFdefense/DoomGame", imgUrl: "../../media/projects/github.png" },
       { url: "https://en.wikipedia.org/wiki/Doom_(franchise)", imgUrl: "../../media/projects/wiki.png" }
@@ -102,7 +102,7 @@ function Projects() {
       <Background />
       <NavBar currentPage={currentPage} />
       
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center items-center ustify-center p-4 md:p-8 lg:p-12">
         <FadeIn>
           <Header title="Projects" />
         </FadeIn>

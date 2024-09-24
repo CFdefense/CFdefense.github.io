@@ -38,7 +38,7 @@ function Experience() {
         <Background />
         <NavBar currentPage={currentPage} />
         
-        <div className="flex flex-col text-center">
+        <div className="flex flex-col text-center items-center justify-center p-4 md:p-8 lg:p-12">
           <FadeIn>
             <Header title="Experience" />
           </FadeIn>
