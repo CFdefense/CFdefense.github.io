@@ -17,10 +17,10 @@ const Header = ({ title }) => {
   }, [changeBackground, isDebouncing]);
 
   return (
-    <div className="p-5 flex justify-center mb-12">
+    <div className="p-5 flex justify-center mb-2">
       <div title="Click Me"
         className="text-white text-center font-myFont cursor-pointer "
-        style={{ fontSize: '12rem', transform: 'scaleX(2.0) scaleY(2.0)', paddingTop: "20px" }}
+        style={{ fontSize: '9rem', transform: 'scaleX(2.0) scaleY(2.0)', paddingTop: "20px" }}
         onClick={handleChangeBackground} // Debounced click to change the background
       >
         {title}
