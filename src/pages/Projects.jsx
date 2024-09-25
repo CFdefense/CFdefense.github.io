@@ -102,7 +102,7 @@ function Projects() {
       <Background />
       <NavBar currentPage={currentPage} />
       
-      <div className="flex flex-col text-center items-center ustify-center p-4 md:p-8 lg:p-12">
+      <div className="flex flex-col text-center items-center justify-center">
         <FadeIn>
           <Header title="Projects" />
         </FadeIn>

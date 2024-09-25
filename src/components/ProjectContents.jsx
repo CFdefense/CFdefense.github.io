@@ -3,7 +3,7 @@ import { Reveal } from "../animations/reveal";
 
 const ProjectContents = ({ title, description, imageUrl, externalLinks }) => {
   return (
-    <div className="w-full mx-auto bg-transparent border-transparent py-16 px-4 flex flex-col gap-6 border rounded max-w-[1800px]">
+    <div className="w-full mx-auto bg-transparent border-transparent -mt-12 px-4 flex flex-col border rounded max-w-[1800px]">
       {/* Flex container for paragraph and picture */}
       <div className="flex flex-col md:flex-row gap-6 text-white">
         {/* Left Side: Project Information */}
