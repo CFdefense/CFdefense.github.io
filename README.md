@@ -32,4 +32,11 @@ To enhance my portfolio website's user experience, I used React Router DOM for s
 <p><a href="https://www.framer.com/docs/" target="_blank">Framer Motion Documentation</a> - Documentation for Framer Motion, a popular library for creating animations in React.</p>
 
 <p>Feel free to check them out for further learning and exploration!</p>
+
+<h2>📓 TODO </h2>
+<ul>
+  <li> Fix Smaller Screen View</li>
+  <li> Keep Updated </li>
+  <li> Introduce More Animations </li>
+</ul>
 </div>
