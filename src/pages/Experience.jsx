@@ -10,6 +10,12 @@ import { FadeIn } from "../animations/fadeIn";
 // Sample project data
 const experienceData = [
   {
+    company: "IBM",
+    title: "Software QA/Test Developer",
+    description: "TBD.",
+    imageUrl: "../../media/experience/IBM.png"
+  },
+  {
     company: "Avangrid Networks",
     title: "Mobile Application Management and Virtual Desktop Infrastructure Intern",
     description: "During my 4-week internship at Avangrid Networks I worked as a Mobile Application Management and Virtual Desktop Infrastructure Intern. Avangrid is a leading U.S. energy company and a subsidiary of Iberdrola, one of the largest global providers of clean energy. Iberdrola focuses on renewable energy solutions like wind and solar, while Avangrid Renewables leads these efforts in the U.S. During my time there, I collaborated with an international team to develop a customized compliance profile for Microsoft Hololens in Microsoft Intune, deploying augmented reality technology to assist fieldworkers on wind turbines. I also restored VPN access for 400 critical devices, helping fieldworkers resume their operations and regain productivity. Additionally, I coordinated application testing for the migration of over 100 Citrix Cloud applications, ensuring seamless functionality post-migration, and managed mobile device compliance and proxy certification issues using Microsoft Intune.",

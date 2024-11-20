@@ -28,6 +28,15 @@ const projectData = [
     ]
   },
   {
+    title: "GameBoy Emulator",
+    description: "Created a Functional GameBoy Emulator Using Rust",
+    imageUrl: "../../media/projects/wip.png",
+    externalLinks: [
+      { url: "https://github.com/CFdefense/GameBoy", imgUrl: "../../media/projects/github.png" },
+      { url: "https://en.wikipedia.org/wiki/Game_Boy", imgUrl: "../../media/projects/wiki.png" }
+    ]
+  },
+  {
     title: "Algorithm and Data Structures",
     description: "Key algorithm and data structure concepts such as graph traversal, dynamic programming, hashing, searching, etc",
     imageUrl: "../../media/projects/algorithms.gif",
