@@ -15,9 +15,8 @@ To showcase my projects and professional experiences, I developed a portfolio we
 This framework allowed me to create a visually appealing and responsive design quickly, ensuring consistency and efficiency throughout the website. The combination of React and Tailwind CSS empowered me to create a modern, interactive portfolio that effectively showcases my skills and experiences despite not having extensive web development experience. These tools proved easy to learn and develop with, providing me with a fun and interesting project that not only showcases my skills but also effectively highlights all my other work.
 <br /> <br />
 To enhance my portfolio website's user experience, I used React Router DOM for seamless transitions between sections, allowing smooth navigation without full-page reloads. I also integrated animations with Tailwind CSS and Framer Motion, creating engaging effects as elements enter and exit the viewport
-<h2>🏁 Demo </h2>
-<img src="https://github.com/CFdefense/CFdefense.github.io/blob/main/public/media/projects/website.gif" alt="Description of the GIF" width="1000">
-<h2>📚 Helpful Resources </h2>
+
+<h2>Helpful Resources </h2>
 
 <p>Here are some helpful resources that I found valuable while building my portfolio website:</p>
 
@@ -31,7 +30,7 @@ To enhance my portfolio website's user experience, I used React Router DOM for s
 
 <p>Feel free to check them out for further learning and exploration!</p>
 
-<h2>📓 TODO </h2>
+<h2> TODO </h2>
 <p>
   Fix Smaller Screen View
   <br /> Keep Updated 
