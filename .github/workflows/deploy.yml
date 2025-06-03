@@ -13,7 +13,7 @@ jobs:
     steps:
       # Step to checkout the repository
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       # Set up Node.js environment using the latest stable version
       - name: Setup Node.js
@@ -31,7 +31,7 @@ jobs:
       
       # Upload build artifacts
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: production-files
           path: ./dist
@@ -44,7 +44,7 @@ jobs:
     steps:
       # Download the artifact from the build job
       - name: Download artifact
-        uses: actions/download-artifact@v3.0.2
+        uses: actions/download-artifact@v4
         with:
           name: production-files
           path: ./dist
