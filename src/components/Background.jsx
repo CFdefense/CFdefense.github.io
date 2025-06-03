@@ -7,6 +7,9 @@ const Background = () => {
   const [fade, setFade] = useState(false);
 
   useEffect(() => {
+    // Log the selected background image
+    console.log("Selected background image:", backgroundImage);
+
     // Start fade-in/out effect when backgroundImage changes
     setFade(true);
 

@@ -10,6 +10,15 @@ import { FadeIn } from "../animations/fadeIn";
 // project data
 const projectData = [
   {
+    title: "Vynn",
+    description: "A minimal, keyboard-driven document storage and processing solution that combines the speed and power of Neovim with the simplicity of modern writing tools and intelligent AI RAG agents",
+    imageUrl: "../../media/projects/Vynn.gif",
+    externalLinks: [
+      { url: "https://github.com/CFdefense/Vynn", imgUrl: "../../media/projects/github.png" },
+      { url: "https://Vynn.app", imgUrl: "../../media/projects/vynn.png" }
+    ]
+  },
+  {
     title: "6502 Microprocessor Compiler",
     description: "Developed a Java-based compiler that translates high-level code into executable 6502 assembly language.",
     imageUrl: "../../media/projects/compiler.gif",
@@ -29,11 +38,11 @@ const projectData = [
   },
   {
     title: "GameBoy Emulator",
-    description: "Created a Functional GameBoy Emulator Using Rust",
-    imageUrl: "../../media/projects/wip.png",
+    description: "Created a Functional GameBoy Emulator Using Rust. It supports both Game Boy (GB) and Game Boy Color (GBC) games and is designed to be multithreaded for improved performance.",
+    imageUrl: "../../media/projects/gameboy.gif",
     externalLinks: [
       { url: "https://github.com/CFdefense/GameBoy", imgUrl: "../../media/projects/github.png" },
-      { url: "https://en.wikipedia.org/wiki/Game_Boy", imgUrl: "../../media/projects/wiki.png" }
+      { url: "https://gbdev.io/pandocs/", imgUrl: "../../media/projects/wiki.png" }
     ]
   },
   {
@@ -79,24 +88,6 @@ const projectData = [
     ,externalLinks: [
       { url: "https://github.com/CFdefense/dotfiles", imgUrl: "../../media/projects/github.png" },
       { url: "https://wiki.archlinux.org/title/Hyprland", imgUrl: "../../media/projects/wiki.png" }
-    ]
-  },
-  {
-    title: "Windows 2019 Domain Controller",
-    description: "A Virtualized Windows Server 2019 Domain Controller with network services mimicing an enterprise environment.",
-    imageUrl: "../../media/projects/dh.png",
-    externalLinks: [
-      { url: "https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019", imgUrl: "../../media/projects/windows.png" },
-      { url: "https://en.wikipedia.org/wiki/Windows_Server_2019", imgUrl: "../../media/projects/wiki.png" }
-    ]
-  },
-  {
-    title: "MQ Ticket Purchasing Lab",
-    description: "IBM Lab Completed using Podman and IBM MQ to handle ticket purchase requests on WSL Ubuntu.",
-    imageUrl: "../../media/projects/mq.png",
-    externalLinks: [
-      { url: "https://developer.ibm.com/learningpaths/ibm-mq-badge/", imgUrl: "../../media/projects/ibm.png" },
-      { url: "https://en.wikipedia.org/wiki/IBM_MQ", imgUrl: "../../media/projects/wiki.png" }
     ]
   }
 ];
