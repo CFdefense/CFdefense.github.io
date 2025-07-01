@@ -26,9 +26,9 @@ const AboutContents = () => {
           <FadeIn delay={0.85}>
             <p className="text-3xl text-center">
               Hi, I’m Christian Farrell, an aspiring tech professional who grew up in the small town of Woodbury, Connecticut. From a young age, 
-              I've had a passion for solving tough problems and a curiosity for technology, often tinkering with and taking apart anything I could get my hands on.
-              Now, I’m pursuing a bachelor's degree in Computer Science and Cybersecurity at Marist College, where I’m sharpening my skills in software development, network security, 
-              and system administration. My goal is to build a career in software development or cybersecurity, where I can continue to tackle complex challenges and develop innovative tech solutions.
+              I've had a passion for solving tough problems and a curiosity for technology. Now, I’m pursuing an accelerated master's degree in Computer Science with a concentration in AI at Marist College. 
+              This path has allowed me to deepen my understanding of advanced computing concepts while developing hands-on experience in building real-world applications. 
+              My goal is to build a career in software engineering, where I can create impactful technology that improves lives.
             </p>
           </FadeIn>
 
